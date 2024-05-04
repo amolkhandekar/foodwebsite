@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+img{
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.ok{
+    width: 70px;
+    height: 70px;
+}
+
+.roc{
+    width: 100px;
+    height: 100px;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+.btn1:hover{
+    background-color: rgb(231, 8, 8);
+    transition: 0.5s;
+
+}
+.card:hover{
+    box-shadow: -1px 0px 24px 15px rgba(0,0,0,0.3);
+-webkit-box-shadow: -1px 0px 24px 15px rgba(0,0,0,0.3);
+-moz-box-shadow: -1px 0px 24px 15px rgba(0,0,0,0.3);
+transition: 0.5s;
+}
+.org{
+    height: 70vh;
+}
